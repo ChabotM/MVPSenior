@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
 :root {
   --bg: #f9f4ee;
   --bg-alt: #f2e8dc;
@@ -9,6 +11,9 @@
   --border: #e2d3c4;
   --shadow: 0 12px 30px rgba(47, 42, 37, 0.12);
   --radius: 16px;
+  --font-body: 'Inter', sans-serif;
+  --font-heading: 'Brosok', serif;
+  --font-subheading: 'Bimbo', sans-serif;
 }
 
 * {
@@ -21,7 +26,7 @@ html {
 
 body {
   margin: 0;
-  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-family: var(--font-body);
   font-size: 18px;
   line-height: 1.7;
   color: var(--text);
@@ -29,6 +34,14 @@ body {
     radial-gradient(circle at top left, rgba(199, 124, 74, 0.12), transparent 45%),
     radial-gradient(circle at bottom right, rgba(132, 164, 140, 0.18), transparent 50%),
     var(--bg);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+}
+
+h3, h4, h5, h6 {
+  font-family: var(--font-subheading);
 }
 
 a {
