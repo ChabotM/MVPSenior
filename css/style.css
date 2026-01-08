@@ -139,6 +139,21 @@ img {
   color: #fff;
 }
 
+.btn-nav {
+  background: transparent !important;
+  border: 2px solid var(--accent-dark);
+  color: var(--accent-dark) !important;
+  padding: 8px 20px !important;
+  font-weight: 600 !important;
+}
+
+.btn-nav:hover,
+.btn-nav:focus {
+  background: var(--accent-dark) !important;
+  color: #fff !important;
+  transform: translateY(-1px);
+}
+
 .burger {
   display: none;
   border: 1px solid var(--border);
