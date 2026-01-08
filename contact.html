@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Club Harmonie - Contact</title>
+  <meta name="description" content="Contactez Club Harmonie pour rejoindre le club ou poser une question." />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" href="data:," />
+</head>
+<body>
+  <a class="skip-link" href="#contact">Aller au contenu</a>
+  <header class="site-header">
+    <nav class="navbar" aria-label="Navigation principale">
+      <a class="logo" href="index.html">Club Harmonie</a>
+      <button class="burger" type="button" aria-expanded="false" aria-controls="nav-links">
+        <span class="burger-line"></span>
+        <span class="burger-line"></span>
+        <span class="burger-line"></span>
+        <span class="sr-only">Ouvrir le menu</span>
+      </button>
+      <div id="nav-links" class="nav-links">
+        <a href="index.html#accueil">Accueil</a>
+        <a href="index.html#club">Le Club</a>
+        <a href="index.html#temoignages">Temoignages</a>
+        <a href="index.html#benefices">Ce que vous y gagnez</a>
+        <a href="contact.html" aria-current="page">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="contact" class="section contact reveal">
+      <div class="section-header">
+        <h1>Contact</h1>
+        <p>Parlez-nous de votre situation, nous vous repondrons rapidement.</p>
+      </div>
+      <form class="contact-form" id="contact-form">
+        <label for="name">Nom</label>
+        <input id="name" name="name" type="text" required />
+
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" required />
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button class="btn" type="submit">Envoyer</button>
+        <p id="form-status" class="form-status" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-links">
+      <a href="mentions-legales.html">Mentions legales</a>
+      <a href="plan-du-site.html">Plan du site</a>
+    </div>
+    <p>© 2024 Club Harmonie. Tous droits reserves.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
