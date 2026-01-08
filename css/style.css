@@ -127,6 +127,8 @@ img {
 .nav-links a {
   padding: 8px 12px;
   border-radius: 999px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
   transition: background 0.2s ease, color 0.2s ease;
 }
 
