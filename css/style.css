@@ -501,6 +501,60 @@ main {
   transform: translateY(0);
 }
 
+/* Pricing cards styles */
+.popular-card {
+  background: var(--accent-dark) !important;
+  color: white !important;
+  position: relative;
+}
+
+.popular-card h3,
+.popular-card p,
+.popular-card strong {
+  color: white !important;
+}
+
+.popular-badge {
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin: 0 0 12px 0;
+  color: white;
+}
+
+.btn-details {
+  display: inline-block;
+  padding: 8px 20px;
+  background: var(--accent-dark);
+  color: white;
+  border-radius: 999px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-decoration: none;
+  transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.btn-details:hover {
+  transform: translateY(-1px);
+  background: #c54e22;
+}
+
+.btn-details-white {
+  display: inline-block;
+  padding: 8px 20px;
+  background: white;
+  color: var(--accent-dark);
+  border-radius: 999px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-decoration: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn-details-white:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
 @media (max-width: 900px) {
   .navbar {
     padding: 12px 6%;
