@@ -265,6 +265,21 @@ main {
   border-radius: var(--radius);
   border: 1px solid var(--border);
   box-shadow: var(--shadow);
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.value-card .icon {
+  flex-shrink: 0;
+}
+
+.value-card-content {
+  flex: 1;
+}
+
+.value-card-content h3 {
+  margin-top: 0;
 }
 
 .icon {
@@ -277,7 +292,6 @@ main {
   justify-content: center;
   font-weight: 700;
   color: #fff;
-  margin-bottom: 12px;
 }
 
 .activity-layout {
