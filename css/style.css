@@ -93,9 +93,13 @@ img {
 }
 
 .logo {
-  font-weight: 700;
-  font-size: 1.3rem;
-  letter-spacing: 0.5px;
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 100px;
+  width: auto;
 }
 
 .nav-links {
